@@ -1,4 +1,3 @@
-# CKA StatefulSet Assignment Day45
 
 ## Overview
 
