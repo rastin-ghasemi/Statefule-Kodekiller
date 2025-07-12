@@ -37,7 +37,7 @@
 StatefulSets are ideal for:
 - Databases (MongoDB, MySQL, PostgreSQL)
 - Distributed systems (Kafka, Elasticsearch, Redis clusters)
-- Applications requiring stable network identity
+- Applications requiring a stable network identity
 - Applications requiring persistent storage
 
 This document provides a complete solution to the StatefulSet assignment. It includes all necessary YAML files, step-by-step instructions for deployment, 
@@ -45,7 +45,7 @@ and explanations of key concepts.
 
 ## 1. Environment Setup
 
-First, ensure your Kubernetes cluster is running, if you dont have a cluster, you can use the kodekloud free lab 
+First, ensure your Kubernetes cluster is running, if you don't have a cluster, you can use the Kodekloud free lab 
 
 ```bash
 # Verify cluster connection
@@ -362,7 +362,7 @@ Verify that PVCs for the new Pods are created and bound:
 kubectl get pvc
 ```
 
-Expected output should now include PVCs for all 5 Pods.
+The expected output should now include PVCs for all 5 Pods.
 
 ## 5. Clean Up
 
